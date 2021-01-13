@@ -1,3 +1,10 @@
+v2.2.1
+
+- specified the type of clock we're using
+
+
+--------------------------------------------------------
+
 v2.2.0
 
 - now EN localized!
