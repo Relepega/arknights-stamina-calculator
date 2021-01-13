@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(arknights-stamina-calculator VERSION 2.1.3)
+project(arknights-stamina-calculator VERSION 2.2.0)
 
 include(CTest)
 enable_testing()

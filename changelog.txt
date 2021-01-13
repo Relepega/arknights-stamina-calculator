@@ -1,5 +1,6 @@
-vX.X.X
+v2.2.0
 
+- now EN localized!
 - refactored time.c for more readability and memory optimization
 
 --------------------------------------------------------
