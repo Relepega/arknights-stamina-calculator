@@ -29,3 +29,4 @@ build/.cmake
 .vscode
 dist
 build.bat
+build\arknights-stamina-calculator.exe
