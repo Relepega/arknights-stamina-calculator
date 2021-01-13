@@ -1,0 +1,37 @@
+vX.X.X
+
+- aggiornato time.c per maggior leggibilità
+
+--------------------------------------------------------
+v2.1.3
+
+- rimosso il datetime formattato perchè buggato
+
+--------------------------------------------------------
+v2.1.2
+
+- fixata una typo nel chiedere la stamina massima
+- pulizia del codice: rimosse parti di codice in disuso commentate
+- pulizia del codice: introdotto un goto al posto del do while
+- aggiunto un file di changelog ("era ora" dissero alcuni)
+
+--------------------------------------------------------
+v2.1.1
+
+- fixata una typo nel dire se la stamina si refillerà oggi o domani
+
+--------------------------------------------------------
+v2.1.0
+
+- aggiunto il supporto per prendere la data odierna dal sistema
+- aggiunto un controllo sui dati in input dell'utente
+
+--------------------------------------------------------
+v2.0.0
+
+- cambiato il calcolo del tempo rimanente del refill della stamina
+
+--------------------------------------------------------
+v1.0.0
+
+- initial release
