@@ -1,2 +1,31 @@
-dist/
-zip_dist/
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+
+# Created by https://www.toptal.com/developers/gitignore/api/cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=cmake
+
+### CMake ###
+build/CMakeLists.txt.user
+build/CMakeCache.txt
+build/CMakeFiles
+build/CMakeScripts
+build/Testing
+build/Makefile
+build/cmake_install.cmake
+build/install_manifest.txt
+build/compile_commands.json
+build/CTestTestfile.cmake
+build/_deps
+build/CMakeUserPresets.json
+build/.cmake
+
+### CMake Patch ###
+# External projects
+*-prefix/
+
+# End of https://www.toptal.com/developers/gitignore/api/cmake
+
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
+.vscode
+dist
+build.bat

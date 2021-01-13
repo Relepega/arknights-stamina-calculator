@@ -1,7 +1,7 @@
 #include <time.h>
 
 // Print current date and time in C
-int fullDateTime(int datetime_pick) {
+static int fullDateTime(int datetime_pick) {
     // variables to store date and time components
     // int hours, minutes, seconds, day, month, year;
     int DateTime[6];
