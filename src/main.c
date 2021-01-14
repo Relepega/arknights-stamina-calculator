@@ -45,7 +45,7 @@ int main() {
     int hmd[3];
 
 data_input:
-    printf("Insert your current stamina : ");
+    printf("Insert your current stamina: ");
     scanf("%d", &stamina);
 
     printf("insert your stamina cap: ");
