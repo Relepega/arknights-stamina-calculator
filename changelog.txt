@@ -1,3 +1,7 @@
+v2.2.2
+
+- fixed something / fixed localization
+--------------------------------------------------------
 v2.2.1
 
 - specified the type of clock we're using
