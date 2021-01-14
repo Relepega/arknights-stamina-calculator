@@ -45,17 +45,18 @@ int main() {
     int hmd[3];
 
 data_input:
-    printf("Insert your current stamina: ");
+    printf("Insert your current stamina : ");
     scanf("%d", &stamina);
 
     printf("insert your stamina cap: ");
     scanf("%d", &max_stamina);
 
+
     h = getHours();
     m = getMinutes();
 
     if (stamina > max_stamina) {
-        printf("Your input is invalid\n");
+        printf("The input is not valid\n");
         goto data_input;
     }
 
@@ -65,7 +66,8 @@ data_input:
     missing_stamina = max_stamina - stamina;
     refill_time = missing_stamina * 6;
 
-    printf("The time needed for refilling %d stamina is of %d minutes\n", missing_stamina, refill_time);
+    //printf("The time needed to  refilling %d stamina is of %d minutes\n", missing_stamina, refill_time);
+    printf("Time to refill the stamina: %d minutes \n", refill_time);
 
     getHMD(h, m, refill_time, missing_stamina, max_stamina, hmd);
 
@@ -78,11 +80,11 @@ data_input:
 
     if (hmd[2] != 0){
         printf(" of tomorrow (counting 1 more stamina)\n");
-        printf("the system is using 24-hour clock");
+        printf("the system is using 24-hour clock \n");
         }
     else{
         printf(" of today (counting 1 more stamina)\n");
-        printf("the system is using 24-hour clock");
+        printf("the system is using 24-hour clock \n");
     }
         
     printf("---------------------------------------\n");
